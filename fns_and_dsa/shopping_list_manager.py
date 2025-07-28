@@ -1,17 +1,17 @@
 # shopping_list_manager.py
 
 def display_menu():
-    print("\nShopping List Manager")
+    print("Shopping List Manager")  # Make sure this exact line appears
     print("1. Add Item")
     print("2. Remove Item")
     print("3. View List")
     print("4. Exit")
 
 def main():
-    shopping_list = []
+    shopping_list = []  
 
     while True:
-        display_menu()
+        display_menu()  
         choice = input("Enter your choice: ").strip()
 
         if choice == '1':
